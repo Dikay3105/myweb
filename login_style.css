@@ -26,12 +26,12 @@ section{
 .divsection_dk{
     position: absolute;
     width: 50%;
-    height:90vh;
+    height:100%;
     background-color: white;
     border-radius: 20px;
     z-index: 10000;
     left: 25%;
-    top:5vh;
+    top:0;
 }
 
 .divsection_cart{
