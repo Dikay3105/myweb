@@ -28,13 +28,13 @@ function showUserList(){
                 else {
                     if(confirm('Bạn có muốn xóa tài khoản này?')){
                         userArray.splice(i, 1);
-                        showUserList();
+                        
                     }
                 }
             }
         }
         localStorage.setItem('user',JSON.stringify(userArray));
-        
+        showUserList();
     }
 
     function createnewuser()
